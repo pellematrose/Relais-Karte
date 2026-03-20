@@ -3365,7 +3365,7 @@
 			(net 4 "+24V")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "f509c1a3-e36d-4575-b0b6-934228e2513e")
+			(uuid "e8da25ec-bdd7-4715-b261-cffa8a8d16d4")
 		)
 		(pad "2" thru_hole circle
 			(at 6.735 -1.7 270)
@@ -3387,7 +3387,7 @@
 			(net 1 "+24V_sicher")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "6a4b0e27-a843-45e8-aac3-b8221d3ff59d")
+			(uuid "a5ecf611-0cfc-4b3a-b491-6ea53b33271b")
 		)
 		(embedded_fonts no)
 		(embedded_files
@@ -3720,7 +3720,7 @@
 			(remove_unused_layers no)
 			(net 1 "+24V_sicher")
 			(pintype "passive")
-			(uuid "8cd6a726-a533-4f3d-bdb0-20d50e20faaf")
+			(uuid "efaef652-6325-4a61-9d88-3477856f3cd8")
 		)
 		(pad "12" thru_hole circle
 			(at 0 15)
@@ -3740,7 +3740,7 @@
 			(remove_unused_layers no)
 			(net 6 "Net-(J3-Pin_2)")
 			(pintype "passive")
-			(uuid "62853f26-1c4d-4de7-977b-38473895cf78")
+			(uuid "d1b2f09e-f8d2-472d-bab4-1a6eb23b4248")
 		)
 		(pad "14" thru_hole circle
 			(at 0 25)
@@ -3760,7 +3760,7 @@
 			(remove_unused_layers no)
 			(net 5 "Net-(J3-Pin_1)")
 			(pintype "passive")
-			(uuid "e03a7cf9-275c-4082-b806-5737061de789")
+			(uuid "2e7eddb5-6d9e-4a3b-9e3d-ee14cb1c181f")
 		)
 		(pad "A1" thru_hole rect
 			(at 0 0)
@@ -10273,7 +10273,7 @@
 	)
 	(gr_rect
 		(start 113.25 86)
-		(end 127 95.5)
+		(end 131 95.5)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -10342,6 +10342,18 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "409bd39d-c9b4-4c90-9b46-0e3bded157b1")
+	)
+	(gr_text "GND"
+		(at 125.5 112 0)
+		(layer "F.SilkS")
+		(uuid "55d28546-c91a-495a-b27e-dc2d112e994d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(gr_text "NC NO GND"
 		(at 102 112 0)

@@ -24,10 +24,10 @@
         <LineDesc lineWidth="0.0" lineEnd="ROUND"/>
       </EntryLineDesc>
       <EntryLineDesc id="LINE_4">
-        <LineDesc lineWidth="0.18750" lineEnd="ROUND"/>
+        <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
       </EntryLineDesc>
       <EntryLineDesc id="LINE_5">
-        <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
+        <LineDesc lineWidth="0.18750" lineEnd="ROUND"/>
       </EntryLineDesc>
       <EntryLineDesc id="LINE_6">
         <LineDesc lineWidth="0.250" lineEnd="ROUND"/>
@@ -159,7 +159,7 @@
       </EntryUser>
       <EntryUser id="URECT_13">
         <UserSpecial>
-          <RectRound upperRight="true" upperLeft="true" lowerRight="true" lowerLeft="true" width="13.850" height="9.60" radius="0.050">
+          <RectRound upperRight="true" upperLeft="true" lowerRight="true" lowerLeft="true" width="17.850" height="9.60" radius="0.050">
             <LineDesc lineWidth="0.10" lineEnd="ROUND"/>
           </RectRound>
         </UserSpecial>
@@ -227,7 +227,7 @@
     <Enterprise id="UNKNOWN" code="NONE"/>
     <Person name="UNKNOWN" enterpriseRef="UNKNOWN" roleRef="Owner"/>
   </LogisticHeader>
-  <HistoryRecord number="1" origination="2026-03-20T22:19:08" software="KiCad EDA" lastChange="2026-03-20T22:19:08">
+  <HistoryRecord number="1" origination="2026-03-20T22:41:57" software="KiCad EDA" lastChange="2026-03-20T22:41:57">
     <FileRevision fileRevisionId="1" comment="NO COMMENT" label="NO LABEL">
       <SoftwarePackage name="KiCad" revision="9.0.7" vendor="KiCad EDA">
         <Certification certificationStatus="SELFTEST"/>
@@ -3601,8 +3601,59 @@
           </Set>
           <Set>
             <Features>
-              <Location x="120.1250" y="-90.750"/>
+              <Location x="122.1250" y="-90.750"/>
               <UserPrimitiveRef id="URECT_13"/>
+            </Features>
+          </Set>
+          <Set geometryUsage="TEXT">
+            <NonstandardAttribute name="TEXT" value="GND" type="STRING"/>
+            <Features>
+              <Location x="0.0" y="0.0"/>
+              <UserSpecial>
+                <Polyline>
+                  <PolyBegin x="126.327693" y="-110.920038"/>
+                  <PolyStepSegment x="126.232455" y="-110.872419"/>
+                  <PolyStepSegment x="126.089598" y="-110.872419"/>
+                  <PolyStepSegment x="125.946741" y="-110.920038"/>
+                  <PolyStepSegment x="125.851503" y="-111.015276"/>
+                  <PolyStepSegment x="125.803884" y="-111.110514"/>
+                  <PolyStepSegment x="125.756265" y="-111.300990"/>
+                  <PolyStepSegment x="125.756265" y="-111.443847"/>
+                  <PolyStepSegment x="125.803884" y="-111.634323"/>
+                  <PolyStepSegment x="125.851503" y="-111.729561"/>
+                  <PolyStepSegment x="125.946741" y="-111.82480"/>
+                  <PolyStepSegment x="126.089598" y="-111.872419"/>
+                  <PolyStepSegment x="126.184836" y="-111.872419"/>
+                  <PolyStepSegment x="126.327693" y="-111.82480"/>
+                  <PolyStepSegment x="126.375312" y="-111.777180"/>
+                  <PolyStepSegment x="126.375312" y="-111.443847"/>
+                  <PolyStepSegment x="126.184836" y="-111.443847"/>
+                  <LineDescRef id="LINE_4"/>
+                </Polyline>
+                <Polyline>
+                  <PolyBegin x="126.803884" y="-111.872419"/>
+                  <PolyStepSegment x="126.803884" y="-110.872419"/>
+                  <PolyStepSegment x="127.375312" y="-111.872419"/>
+                  <PolyStepSegment x="127.375312" y="-110.872419"/>
+                  <LineDescRef id="LINE_4"/>
+                </Polyline>
+                <Polyline>
+                  <PolyBegin x="127.851503" y="-111.872419"/>
+                  <PolyStepSegment x="127.851503" y="-110.872419"/>
+                  <PolyStepSegment x="128.089598" y="-110.872419"/>
+                  <PolyStepSegment x="128.232455" y="-110.920038"/>
+                  <PolyStepSegment x="128.327693" y="-111.015276"/>
+                  <PolyStepSegment x="128.375312" y="-111.110514"/>
+                  <PolyStepSegment x="128.422931" y="-111.300990"/>
+                  <PolyStepSegment x="128.422931" y="-111.443847"/>
+                  <PolyStepSegment x="128.375312" y="-111.634323"/>
+                  <PolyStepSegment x="128.327693" y="-111.729561"/>
+                  <PolyStepSegment x="128.232455" y="-111.82480"/>
+                  <PolyStepSegment x="128.089598" y="-111.872419"/>
+                  <PolyStepSegment x="127.851503" y="-111.872419"/>
+                  <LineDescRef id="LINE_4"/>
+                </Polyline>
+              </UserSpecial>
             </Features>
           </Set>
           <Set geometryUsage="TEXT">
@@ -3615,7 +3666,7 @@
                   <PolyStepSegment x="102.480497" y="-109.745488"/>
                   <PolyStepSegment x="103.337640" y="-111.745488"/>
                   <PolyStepSegment x="103.337640" y="-109.745488"/>
-                  <LineDescRef id="LINE_4"/>
+                  <LineDescRef id="LINE_5"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="104.909069" y="-111.555011"/>
@@ -3634,14 +3685,14 @@
                   <PolyStepSegment x="104.623355" y="-109.745488"/>
                   <PolyStepSegment x="104.837641" y="-109.840726"/>
                   <PolyStepSegment x="104.909069" y="-109.935964"/>
-                  <LineDescRef id="LINE_4"/>
+                  <LineDescRef id="LINE_5"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="106.694783" y="-111.745488"/>
                   <PolyStepSegment x="106.694783" y="-109.745488"/>
                   <PolyStepSegment x="107.551926" y="-111.745488"/>
                   <PolyStepSegment x="107.551926" y="-109.745488"/>
-                  <LineDescRef id="LINE_4"/>
+                  <LineDescRef id="LINE_5"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="108.551927" y="-109.745488"/>
@@ -3661,7 +3712,7 @@
                   <PolyStepSegment x="108.266212" y="-110.031202"/>
                   <PolyStepSegment x="108.409070" y="-109.840726"/>
                   <PolyStepSegment x="108.551927" y="-109.745488"/>
-                  <LineDescRef id="LINE_4"/>
+                  <LineDescRef id="LINE_5"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="111.766213" y="-109.840726"/>
@@ -3681,14 +3732,14 @@
                   <PolyStepSegment x="111.837641" y="-111.555011"/>
                   <PolyStepSegment x="111.837641" y="-110.888345"/>
                   <PolyStepSegment x="111.551927" y="-110.888345"/>
-                  <LineDescRef id="LINE_4"/>
+                  <LineDescRef id="LINE_5"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="112.480498" y="-111.745488"/>
                   <PolyStepSegment x="112.480498" y="-109.745488"/>
                   <PolyStepSegment x="113.337641" y="-111.745488"/>
                   <PolyStepSegment x="113.337641" y="-109.745488"/>
-                  <LineDescRef id="LINE_4"/>
+                  <LineDescRef id="LINE_5"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="114.051927" y="-111.745488"/>
@@ -3704,7 +3755,7 @@
                   <PolyStepSegment x="114.623356" y="-111.650250"/>
                   <PolyStepSegment x="114.409070" y="-111.745488"/>
                   <PolyStepSegment x="114.051927" y="-111.745488"/>
-                  <LineDescRef id="LINE_4"/>
+                  <LineDescRef id="LINE_5"/>
                 </Polyline>
               </UserSpecial>
             </Features>
@@ -3715,7 +3766,7 @@
               <Location x="0.0" y="0.0"/>
               <UserSpecial>
                 <Line startX="130.372419" startY="-82.624687" endX="129.896228" endY="-82.958020">
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Line>
                 <Polyline>
                   <PolyBegin x="130.372419" y="-83.196115"/>
@@ -3729,7 +3780,7 @@
                   <PolyStepSegment x="129.848609" y="-82.719925"/>
                   <PolyStepSegment x="129.896228" y="-82.815163"/>
                   <PolyStepSegment x="129.896228" y="-83.196115"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="130.32480" y="-81.815163"/>
@@ -3745,14 +3796,14 @@
                   <PolyStepSegment x="129.848609" y="-81.767544"/>
                   <PolyStepSegment x="129.943847" y="-81.767544"/>
                   <PolyStepSegment x="130.039085" y="-82.243734"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="130.372419" y="-81.196115"/>
                   <PolyStepSegment x="130.32480" y="-81.291353"/>
                   <PolyStepSegment x="130.229561" y="-81.338972"/>
                   <PolyStepSegment x="129.372419" y="-81.338972"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="130.372419" y="-80.386591"/>
@@ -3761,7 +3812,7 @@
                   <PolyStepSegment x="129.705752" y="-80.529448"/>
                   <PolyStepSegment x="129.705752" y="-80.719924"/>
                   <PolyStepSegment x="129.753371" y="-80.815162"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="130.32480" y="-80.386591"/>
@@ -3774,10 +3825,10 @@
                   <PolyStepSegment x="129.991466" y="-80.719924"/>
                   <PolyStepSegment x="129.991466" y="-80.481829"/>
                   <PolyStepSegment x="129.943847" y="-80.386591"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Line startX="130.372419" startY="-79.91040" endX="129.705752" endY="-79.91040">
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Line>
                 <Polyline>
                   <PolyBegin x="129.372419" y="-79.91040"/>
@@ -3786,7 +3837,7 @@
                   <PolyStepSegment x="129.420038" y="-79.862781"/>
                   <PolyStepSegment x="129.372419" y="-79.91040"/>
                   <PolyStepSegment x="129.467657" y="-79.91040"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="130.32480" y="-79.481829"/>
@@ -3805,19 +3856,19 @@
                   <PolyStepSegment x="129.705752" y="-79.338972"/>
                   <PolyStepSegment x="129.705752" y="-79.196115"/>
                   <PolyStepSegment x="129.753371" y="-79.100877"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Line startX="129.991466" startY="-78.624686" endX="129.991466" endY="-77.862782">
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Line>
                 <Line startX="130.372419" startY="-77.386591" endX="129.372419" endY="-77.386591">
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Line>
                 <Line startX="130.372419" startY="-76.815163" endX="129.800990" endY="-77.243734">
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Line>
                 <Line startX="129.372419" startY="-76.815163" endX="129.943847" endY="-77.386591">
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Line>
                 <Polyline>
                   <PolyBegin x="130.372419" y="-75.958020"/>
@@ -3826,7 +3877,7 @@
                   <PolyStepSegment x="129.705752" y="-76.100877"/>
                   <PolyStepSegment x="129.705752" y="-76.291353"/>
                   <PolyStepSegment x="129.753371" y="-76.386591"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="130.32480" y="-75.958020"/>
@@ -3839,10 +3890,10 @@
                   <PolyStepSegment x="129.991466" y="-76.291353"/>
                   <PolyStepSegment x="129.991466" y="-76.053258"/>
                   <PolyStepSegment x="129.943847" y="-75.958020"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Line startX="130.372419" startY="-75.481829" endX="129.705752" endY="-75.481829">
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Line>
                 <Polyline>
                   <PolyBegin x="129.896228" y="-75.481829"/>
@@ -3850,10 +3901,10 @@
                   <PolyStepSegment x="129.753371" y="-75.386591"/>
                   <PolyStepSegment x="129.705752" y="-75.291353"/>
                   <PolyStepSegment x="129.705752" y="-75.196115"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Line startX="129.705752" startY="-75.005638" endX="129.705752" endY="-74.624686">
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Line>
                 <Polyline>
                   <PolyBegin x="129.372419" y="-74.862781"/>
@@ -3861,7 +3912,7 @@
                   <PolyStepSegment x="130.32480" y="-74.815162"/>
                   <PolyStepSegment x="130.372419" y="-74.719924"/>
                   <PolyStepSegment x="130.372419" y="-74.624686"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="130.32480" y="-73.91040"/>
@@ -3877,10 +3928,10 @@
                   <PolyStepSegment x="129.848609" y="-73.862781"/>
                   <PolyStepSegment x="129.943847" y="-73.862781"/>
                   <PolyStepSegment x="130.039085" y="-74.338971"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Line startX="130.372419" startY="-72.148495" endX="130.372419" endY="-72.719923">
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Line>
                 <Polyline>
                   <PolyBegin x="130.372419" y="-72.434209"/>
@@ -3888,7 +3939,7 @@
                   <PolyStepSegment x="129.515276" y="-72.529447"/>
                   <PolyStepSegment x="129.610514" y="-72.624685"/>
                   <PolyStepSegment x="129.658133" y="-72.719923"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="130.372419" y="-71.672304"/>
@@ -3913,7 +3964,7 @@
                   <PolyStepSegment x="129.943847" y="-71.291352"/>
                   <PolyStepSegment x="129.896228" y="-71.243733"/>
                   <PolyStepSegment x="129.800990" y="-71.196114"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="129.372419" y="-70.577066"/>
@@ -3937,7 +3988,7 @@
                   <PolyStepSegment x="129.467657" y="-70.719923"/>
                   <PolyStepSegment x="129.420038" y="-70.672304"/>
                   <PolyStepSegment x="129.372419" y="-70.577066"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="129.372419" y="-69.910399"/>
@@ -3954,7 +4005,7 @@
                   <PolyStepSegment x="130.372419" y="-69.767542"/>
                   <PolyStepSegment x="130.32480" y="-69.862780"/>
                   <PolyStepSegment x="130.277180" y="-69.910399"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="129.467657" y="-68.910399"/>
@@ -3968,7 +4019,7 @@
                   <PolyStepSegment x="129.800990" y="-68.386590"/>
                   <PolyStepSegment x="130.372419" y="-68.958018"/>
                   <PolyStepSegment x="130.372419" y="-68.338971"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="129.372419" y="-67.481828"/>
@@ -3993,7 +4044,7 @@
                   <PolyStepSegment x="129.800990" y="-67.862780"/>
                   <PolyStepSegment x="129.848609" y="-67.910399"/>
                   <PolyStepSegment x="129.943847" y="-67.958018"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
               </UserSpecial>
             </Features>
@@ -4021,14 +4072,14 @@
                   <PolyStepSegment x="96.980497" y="-81.091426"/>
                   <PolyStepSegment x="97.123355" y="-80.900950"/>
                   <PolyStepSegment x="97.266212" y="-80.805712"/>
-                  <LineDescRef id="LINE_4"/>
+                  <LineDescRef id="LINE_5"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="98.551926" y="-82.805712"/>
                   <PolyStepSegment x="98.551926" y="-80.805712"/>
                   <PolyStepSegment x="99.409069" y="-82.805712"/>
                   <PolyStepSegment x="99.409069" y="-80.805712"/>
-                  <LineDescRef id="LINE_4"/>
+                  <LineDescRef id="LINE_5"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="97.266212" y="-87.245488"/>
@@ -4048,25 +4099,25 @@
                   <PolyStepSegment x="96.980497" y="-87.531202"/>
                   <PolyStepSegment x="97.123355" y="-87.340726"/>
                   <PolyStepSegment x="97.266212" y="-87.245488"/>
-                  <LineDescRef id="LINE_4"/>
+                  <LineDescRef id="LINE_5"/>
                 </Polyline>
                 <Line startX="99.051926" startY="-88.197869" endX="98.551926" endY="-88.197869">
-                  <LineDescRef id="LINE_4"/>
+                  <LineDescRef id="LINE_5"/>
                 </Line>
                 <Polyline>
                   <PolyBegin x="98.551926" y="-89.245488"/>
                   <PolyStepSegment x="98.551926" y="-87.245488"/>
                   <PolyStepSegment x="99.266212" y="-87.245488"/>
-                  <LineDescRef id="LINE_4"/>
+                  <LineDescRef id="LINE_5"/>
                 </Polyline>
                 <Line startX="100.337640" startY="-88.197869" endX="99.837640" endY="-88.197869">
-                  <LineDescRef id="LINE_4"/>
+                  <LineDescRef id="LINE_5"/>
                 </Line>
                 <Polyline>
                   <PolyBegin x="99.837640" y="-89.245488"/>
                   <PolyStepSegment x="99.837640" y="-87.245488"/>
                   <PolyStepSegment x="100.551926" y="-87.245488"/>
-                  <LineDescRef id="LINE_4"/>
+                  <LineDescRef id="LINE_5"/>
                 </Polyline>
               </UserSpecial>
             </Features>
@@ -4263,7 +4314,7 @@
                   <PolyStepSegment x="108.857143" y="-73.957419"/>
                   <PolyStepSegment x="109.095238" y="-73.957419"/>
                   <PolyStepSegment x="109.238095" y="-74.005038"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Polyline>
                   <PolyBegin x="109.571429" y="-73.957419"/>
@@ -4271,10 +4322,10 @@
                   <PolyStepSegment x="110.0" y="-74.243133"/>
                   <PolyStepSegment x="110.190476" y="-74.957419"/>
                   <PolyStepSegment x="110.428572" y="-73.957419"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
                 <Line startX="111.333333" startY="-74.957419" endX="110.761905" endY="-74.957419">
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Line>
                 <Polyline>
                   <PolyBegin x="111.047619" y="-74.957419"/>
@@ -4282,7 +4333,7 @@
                   <PolyStepSegment x="110.952381" y="-74.100276"/>
                   <PolyStepSegment x="110.857143" y="-74.195514"/>
                   <PolyStepSegment x="110.761905" y="-74.243133"/>
-                  <LineDescRef id="LINE_5"/>
+                  <LineDescRef id="LINE_4"/>
                 </Polyline>
               </UserSpecial>
             </Features>
@@ -13002,7 +13053,7 @@
     </CadData>
   </Ecad>
   <Avl name="Primary_Vendor_List">
-    <AvlHeader title="BOM" source="KiCad" author="OWNER" datetime="2026-03-20T22:19:08" version="1"/>
+    <AvlHeader title="BOM" source="KiCad" author="OWNER" datetime="2026-03-20T22:41:57" version="1"/>
     <AvlItem OEMDesignNumber="Footprints_L10101_Schiebeschalter_L101011MS02Q"/>
     <AvlItem OEMDesignNumber="Footprints_Fuse Holder Littelfuse ATOF 287_3557-2"/>
     <AvlItem OEMDesignNumber="Footprints_Relay_SPDT_Omron_G2RL-1-E_G2RL-1-E"/>
