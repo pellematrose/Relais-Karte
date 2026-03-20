@@ -227,7 +227,7 @@
     <Enterprise id="UNKNOWN" code="NONE"/>
     <Person name="UNKNOWN" enterpriseRef="UNKNOWN" roleRef="Owner"/>
   </LogisticHeader>
-  <HistoryRecord number="1" origination="2026-03-20T22:41:57" software="KiCad EDA" lastChange="2026-03-20T22:41:57">
+  <HistoryRecord number="1" origination="2026-03-20T22:57:26" software="KiCad EDA" lastChange="2026-03-20T22:57:26">
     <FileRevision fileRevisionId="1" comment="NO COMMENT" label="NO LABEL">
       <SoftwarePackage name="KiCad" revision="9.0.7" vendor="KiCad EDA">
         <Certification certificationStatus="SELFTEST"/>
@@ -13053,7 +13053,7 @@
     </CadData>
   </Ecad>
   <Avl name="Primary_Vendor_List">
-    <AvlHeader title="BOM" source="KiCad" author="OWNER" datetime="2026-03-20T22:41:57" version="1"/>
+    <AvlHeader title="BOM" source="KiCad" author="OWNER" datetime="2026-03-20T22:57:26" version="1"/>
     <AvlItem OEMDesignNumber="Footprints_L10101_Schiebeschalter_L101011MS02Q"/>
     <AvlItem OEMDesignNumber="Footprints_Fuse Holder Littelfuse ATOF 287_3557-2"/>
     <AvlItem OEMDesignNumber="Footprints_Relay_SPDT_Omron_G2RL-1-E_G2RL-1-E"/>

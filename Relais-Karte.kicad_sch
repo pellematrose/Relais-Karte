@@ -2443,7 +2443,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C475092"
 			(at 115.57 92.71 0)
 			(effects
 				(font
@@ -2608,6 +2608,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C475092"
+			(at 58.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 58.42 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "284a661b-6def-4a4c-ac2e-fd8667f6d8d7")
 		)
@@ -2759,7 +2777,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C19727304"
 			(at 81.28 39.37 0)
 			(effects
 				(font
@@ -2784,7 +2802,7 @@
 			(uuid "76b48213-1622-4900-a745-2584f0a217c7")
 		)
 		(instances
-			(project ""
+			(project "Relais-Karte"
 				(path "/c7fa4b37-882c-44ba-bde7-299b1a97af71"
 					(reference "F1")
 					(unit 1)
@@ -2854,6 +2872,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C475092"
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 58.42 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "70c23311-c7a0-4c94-95bf-d7ea7f6648af")
 		)
@@ -2861,7 +2897,7 @@
 			(uuid "0b8379e9-75cd-40c8-89f5-31f7796f43af")
 		)
 		(instances
-			(project ""
+			(project "Relais-Karte"
 				(path "/c7fa4b37-882c-44ba-bde7-299b1a97af71"
 					(reference "J1")
 					(unit 1)
@@ -3089,7 +3125,7 @@
 			(uuid "521a4da0-607e-4328-a797-beef8f2e9457")
 		)
 		(instances
-			(project ""
+			(project "Relais-Karte"
 				(path "/c7fa4b37-882c-44ba-bde7-299b1a97af71"
 					(reference "D1")
 					(unit 1)
@@ -3194,7 +3230,7 @@
 			(uuid "bc7b4f64-1efe-45b5-8f20-2eebbbf244f8")
 		)
 		(instances
-			(project ""
+			(project "Relais-Karte"
 				(path "/c7fa4b37-882c-44ba-bde7-299b1a97af71"
 					(reference "K1")
 					(unit 1)
@@ -3606,6 +3642,24 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C475093"
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser" ""
+			(at 58.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "1acad235-f1a9-4f02-a2df-fdfe2855c220")
 		)
@@ -3616,7 +3670,7 @@
 			(uuid "3651d2ba-018b-4a56-8203-1c4e89546f4a")
 		)
 		(instances
-			(project ""
+			(project "Relais-Karte"
 				(path "/c7fa4b37-882c-44ba-bde7-299b1a97af71"
 					(reference "J3")
 					(unit 1)
@@ -3723,7 +3777,7 @@
 			(uuid "6fc68fa3-e557-4756-9fd0-263a066ba177")
 		)
 		(instances
-			(project ""
+			(project "Relais-Karte"
 				(path "/c7fa4b37-882c-44ba-bde7-299b1a97af71"
 					(reference "SW1")
 					(unit 1)
