@@ -8,3 +8,9 @@ Relais-Karte.kicad_pro
 Relais-Karte.kicad_sch
 ~Relais-Karte.kicad_pcb.lck
 ~Relais-Karte.kicad_sch.lck
+/3dmodels
+archive_3d_models.log
+/Footprints.pretty
+fp-lib-table
+sym-lib-table
+Symbols.kicad_sym

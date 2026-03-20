@@ -1,4 +1,4 @@
-ERC-Bericht (2026-03-19T21:40:35+0100, UTF8-kodiert)
+ERC-Bericht (2026-03-20T22:13:24+0100, UTF8-kodiert)
 
 ***** Schaltplan /
 [power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
