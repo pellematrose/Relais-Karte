@@ -1,0 +1,261 @@
+(footprint "Fuse Holder Littelfuse ATOF 287"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "KFZ Sicherungshalter")
+	(property "Reference" "REF**"
+		(at -9 -4.5 90)
+		(layer "F.SilkS")
+		(uuid "43e7c125-4645-4880-8bca-634e90837be7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "3557-2"
+		(at 0.5 0 0)
+		(layer "F.Fab")
+		(uuid "5912ef11-8076-487b-a665-1542dc2d2eb4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.keyelco.com/userAssets/file/K75p47.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "da1683ed-37dc-4173-bf7a-4752386a4fe7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Fuse"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "991f67f6-fb6c-474c-80f6-e6f354f9068a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey" "36-3557-2-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7f5e5350-000b-4fa6-b6cf-3e21df06d051")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C19727304"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b0ddc294-2ec9-420c-bda8-e6eb1a4d9544")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c1c0909-023d-4761-8bb1-a467dcbbba14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -9.905 -3.365)
+		(end -9.905 3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72e3dd00-b790-4f0c-a0c4-af3c0ddebbb1")
+	)
+	(fp_line
+		(start -9.905 3.365)
+		(end 9.905 3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b77b8bdd-6258-41f8-8799-fe29c7208984")
+	)
+	(fp_line
+		(start 9.905 -3.365)
+		(end -9.905 -3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f65545fe-e787-4a07-b170-1833dc949e3a")
+	)
+	(fp_line
+		(start 9.905 3.365)
+		(end 9.905 -3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4b4d43a-48d5-4eb3-b63f-f070649edc5e")
+	)
+	(fp_line
+		(start -10.155 -3.615)
+		(end 10.155 -3.615)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8fae8e95-a1e8-4d7b-8d4b-a037dc3ed35f")
+	)
+	(fp_line
+		(start -10.155 3.615)
+		(end -10.155 -3.615)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "483fd64f-9c05-4271-9534-fdb44d1890a6")
+	)
+	(fp_line
+		(start 10.155 -3.615)
+		(end 10.155 3.615)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "88b5b6b6-641b-456d-9fe0-cdfeeb8ce998")
+	)
+	(fp_line
+		(start 10.155 3.615)
+		(end -10.155 3.615)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7e4300f-09b7-4d4c-ad08-f2bc4c8f6390")
+	)
+	(fp_line
+		(start -9.905 -3.365)
+		(end -9.905 3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa2f69cf-583e-44ca-a909-e033e263143c")
+	)
+	(fp_line
+		(start -9.905 3.365)
+		(end 9.905 3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0fe308fa-0832-49b0-b7cc-1ad77c36ef12")
+	)
+	(fp_line
+		(start 9.905 -3.365)
+		(end -9.905 -3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "839ceeab-1ca4-49c5-91d9-ad12ad80841c")
+	)
+	(fp_line
+		(start 9.905 3.365)
+		(end 9.905 -3.365)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2f26acd2-bb3e-4f4a-b717-a1e337446675")
+	)
+	(pad "1" thru_hole circle
+		(at -6.735 -1.7)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0ce366ee-90c3-48d3-a972-d064bdc0453f")
+	)
+	(pad "1" thru_hole circle
+		(at -6.735 1.7)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b8c4d2e1-6080-46e3-999e-e92530e40ae4")
+	)
+	(pad "2" thru_hole circle
+		(at 6.735 -1.7)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "280256f1-c86f-43f2-af12-dbb004c2396c")
+	)
+	(pad "2" thru_hole circle
+		(at 6.735 1.7)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "8b2b26bd-b160-46cb-a553-c74535af86eb")
+	)
+	(embedded_fonts no)
+	(model "/home/per-simon/Dokumente/Projekte/KiCad Libs/3D Models/3557-2.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,260 @@
+(footprint "LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "LED SMD 1206 (3216 Metric), reverse mount, square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
+	(tags "diode reverse")
+	(property "Reference" "REF**"
+		(at 0 2.5 0)
+		(layer "F.SilkS")
+		(uuid "5b0eafe2-2f66-44d5-8184-a79fa0f52bbf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KPTD-3216SECK"
+		(at 0 2.145 0)
+		(layer "F.Fab")
+		(uuid "74711f69-d9a8-411b-a124-9e9fba8f0f6b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.farnell.com/datasheets/2045912.pdf"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0798a744-8dea-4de4-b66d-21b9021931cf")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Light emitting diode"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73c7b586-7186-4374-baf1-6b3d99fe08b0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "30c83d17-ad12-41db-9b5d-52659bd9b292")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Digikey" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94099ac6-32a5-48c5-b007-e154a032308c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Mouser" ""
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "716d8eaf-a4a8-4b69-923f-866d9c2cce7a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.285 -1.46)
+		(end -2.285 1.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4c174e6f-1ec7-4e8b-a991-d3111e8ad45b")
+	)
+	(fp_line
+		(start -2.285 1.46)
+		(end 1.6 1.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44702f08-dbb0-4fce-8047-a567376a946e")
+	)
+	(fp_line
+		(start 1.6 -1.46)
+		(end -2.285 -1.46)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "750f6728-161d-4639-853b-95dd022d1e5a")
+	)
+	(fp_line
+		(start -2.28 -1.46)
+		(end 2.28 -1.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8ba4517e-a088-4752-ac49-b40b867bc9e7")
+	)
+	(fp_line
+		(start -2.28 1.46)
+		(end -2.28 -1.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "b991c0e5-2219-4bcd-bff6-e67f9c767794")
+	)
+	(fp_line
+		(start 2.28 -1.46)
+		(end 2.28 1.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "22514aa0-a1cd-4986-8076-e4eaced82ab2")
+	)
+	(fp_line
+		(start 2.28 1.46)
+		(end -2.28 1.46)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "afcef720-332d-4216-a048-d192f2ccb96a")
+	)
+	(fp_line
+		(start -1.6 -0.4)
+		(end -1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "cabeb0fc-709d-4808-afb0-7d879fad72bb")
+	)
+	(fp_line
+		(start -1.6 0.8)
+		(end 1.6 0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "b172916a-7bdd-4222-a0bd-afda1718840f")
+	)
+	(fp_line
+		(start -1.2 -0.8)
+		(end -1.6 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "9c7baf55-5605-4167-be83-de7138f36d21")
+	)
+	(fp_line
+		(start 1.6 -0.8)
+		(end -1.2 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "aa34868b-c368-47d3-9ace-5001488f6130")
+	)
+	(fp_line
+		(start 1.6 0.8)
+		(end 1.6 -0.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "509828eb-c439-4503-8dca-e34d27838314")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "8c08b28d-32c2-403c-81fd-7ffe3bd3fcba")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(pad "" np_thru_hole oval
+		(at 0 0 180)
+		(size 1.8 2.4)
+		(drill oval 1.8 2.4)
+		(layers "*.Cu" "*.Mask")
+		(uuid "baa45b62-405b-44c9-9cd2-9b3afb88b50a")
+	)
+	(pad "1" smd roundrect
+		(at -1.55 0 180)
+		(size 0.95 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "ae924ace-b502-4674-9aef-0d1d8c30d8f7")
+	)
+	(pad "2" smd roundrect
+		(at 1.55 0 180)
+		(size 0.95 1.75)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2)
+		(uuid "f3ca584b-aad9-414a-8fe0-c3174bc063dc")
+	)
+	(embedded_fonts no)
+	(model "/home/per-simon/Dokumente/Projekte/KiCad Libs/3D Models/KPTD-3216SECK.stp"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
+)

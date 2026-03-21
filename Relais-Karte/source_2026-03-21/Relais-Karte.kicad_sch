@@ -15,6 +15,393 @@
 		(comment 4 "(c) 2026 Per-Simon Saal")
 	)
 	(lib_symbols
+		(symbol "Reference_Voltage:TL431DBZ"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TL431DBZ"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -4.826 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
+				(at 1.778 -9.144 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Shunt Regulator, SOT-23"
+				(at 0 -7.112 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode device shunt regulator"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TL431DBZ_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -0.762) (xy 0.762 -0.762) (xy 0.762 0.762) (xy 0.762 0.762)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TL431DBZ_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.54)
+					(name "REF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Resistor_E12_0603:Resistor 22K"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.778 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "22K"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Widerstand 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C31850"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistor 22K_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor 22K_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Resistor_E12_0603:Resistor 270R"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 1.778 1.524 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "270R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Widerstand 0603"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC" "C22966"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Resistor 270R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Resistor 270R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Symbols:+24V"
 			(power)
 			(pin_numbers
@@ -130,229 +517,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Symbols:BC846"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "BC846"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "0.1A Ic, 65V Vce, NPN Transistor, SOT-23"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "NPN"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=B 2=E 3=C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "NPN Transistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "BC846_0_1"
-				(polyline
-					(pts
-						(xy -2.54 0) (xy 0.635 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.27 0)
-					(radius 2.8194)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "BC846_1_1"
-				(polyline
-					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1128,180 +1292,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Symbols:LED"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "LED"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Light emitting diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "LED diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LED_0_1"
-				(polyline
-					(pts
-						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 -1.27) (xy -1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "LED_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Symbols:MKDS_3-2_5.08"
 			(pin_names
 				(offset 1.016)
@@ -1864,224 +1854,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Symbols:Resistor 22K"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.778 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "22K"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Widerstand 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C31850"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resistor 22K_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resistor 22K_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Symbols:Resistor 270R"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 1.778 1.524 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "270R"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Widerstand 0603"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC" "C22966"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Resistor 270R_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Resistor 270R_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Symbols:SW_SPST_2"
 			(pin_numbers
 				(hide yes)
@@ -2494,62 +2266,81 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Symbols:TL431DBZ"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Transistor_BJT:BC846"
 			(pin_names
+				(offset 0)
 				(hide yes)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -2.54 2.54 0)
+			(property "Reference" "Q"
+				(at 5.08 1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "TL431DBZ"
-				(at 0 -2.54 0)
+			(property "Value" "BC846"
+				(at 5.08 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-				(at 0 -4.826 0)
+				(at 5.08 -1.905 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 						(italic yes)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/tl431.pdf"
-				(at 1.778 -9.144 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Shunt Regulator, SOT-23"
-				(at 0 -7.112 0)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode device shunt regulator"
+			(property "Description" "0.1A Ic, 65V Vce, NPN Transistor, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=B 2=E 3=C"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "NPN Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2567,10 +2358,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "TL431DBZ_0_1"
+			(symbol "BC846_0_1"
 				(polyline
 					(pts
-						(xy -1.27 0) (xy 0 0) (xy 1.27 0)
+						(xy -2.54 0) (xy 0.635 0)
 					)
 					(stroke
 						(width 0)
@@ -2582,20 +2373,19 @@
 				)
 				(polyline
 					(pts
-						(xy -0.762 -0.762) (xy -0.762 0.762) (xy 0.762 0) (xy -0.762 -0.762)
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
-						(width 0)
+						(width 0.508)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
-				(polyline
-					(pts
-						(xy 0.254 -0.762) (xy 0.762 -0.762) (xy 0.762 0.762) (xy 0.762 0.762)
-					)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2605,11 +2395,65 @@
 					)
 				)
 			)
-			(symbol "TL431DBZ_1_1"
-				(pin passive line
-					(at -2.54 0 0)
+			(symbol "BC846_1_1"
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
 					(length 2.54)
-					(name "A"
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2625,9 +2469,9 @@
 					)
 				)
 				(pin passive line
-					(at 0 2.54 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "REF"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2642,8 +2486,146 @@
 						)
 					)
 				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "_PS_LIB:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
 				(pin passive line
-					(at 2.54 0 180)
+					(at -3.81 0 0)
 					(length 2.54)
 					(name "K"
 						(effects
@@ -2653,6 +2635,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3844,7 +3844,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:TL431DBZ")
+		(lib_id "Reference_Voltage:TL431DBZ")
 		(at 193.04 62.23 0)
 		(mirror y)
 		(unit 1)
@@ -3990,7 +3990,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:Resistor 22K")
+		(lib_id "Resistor_E12_0603:Resistor 22K")
 		(at 168.91 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4164,7 +4164,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:Resistor 270R")
+		(lib_id "Resistor_E12_0603:Resistor 270R")
 		(at 199.39 52.07 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4241,7 +4241,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:Resistor 270R")
+		(lib_id "Resistor_E12_0603:Resistor 270R")
 		(at 199.39 78.74 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4413,7 +4413,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:BC846")
+		(lib_id "Transistor_BJT:BC846")
 		(at 182.88 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4571,7 +4571,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:LED")
+		(lib_id "_PS_LIB:LED")
 		(at 212.09 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4830,7 +4830,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:LED")
+		(lib_id "_PS_LIB:LED")
 		(at 212.09 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5099,7 +5099,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:TL431DBZ")
+		(lib_id "Reference_Voltage:TL431DBZ")
 		(at 193.04 88.9 0)
 		(mirror y)
 		(unit 1)
@@ -5445,7 +5445,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:Resistor 22K")
+		(lib_id "Resistor_E12_0603:Resistor 22K")
 		(at 168.91 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6067,7 +6067,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:BC846")
+		(lib_id "Transistor_BJT:BC846")
 		(at 182.88 81.28 90)
 		(unit 1)
 		(exclude_from_sim no)

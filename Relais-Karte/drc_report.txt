@@ -1,7 +1,24 @@
 ** Drc report for Relais-Karte.kicad_pcb **
-** Created on 2026-03-20T22:57:25+0100 **
+** Created on 2026-03-21T16:51:24+0100 **
+** Report includes: Fehler, Warnungen **
 
-** Found 0 DRC violations **
+** Found 4 DRC violations **
+[copper_edge_clearance]: Platinenkanten-Freiraum-Verstoß (Einschränkungen aus Platinenkonfiguration zum Rand Freiraum 0,5000 mm; tatsächlich 0,1750 mm)
+    Regel: Einschränkungen aus Platinenkonfiguration zum Rand; error
+    @(97,9750 mm, 54,2375 mm): NPTH-Pad von D2
+    @(97,9750 mm, 52,6875 mm): Pad 1 [GND] von D2 auf B.Cu
+[copper_edge_clearance]: Platinenkanten-Freiraum-Verstoß (Einschränkungen aus Platinenkonfiguration zum Rand Freiraum 0,5000 mm; tatsächlich 0,1750 mm)
+    Regel: Einschränkungen aus Platinenkonfiguration zum Rand; error
+    @(97,9750 mm, 54,2375 mm): NPTH-Pad von D2
+    @(97,9750 mm, 55,7875 mm): Pad 2 [Net-(D2-A)] von D2 auf B.Cu
+[copper_edge_clearance]: Platinenkanten-Freiraum-Verstoß (Einschränkungen aus Platinenkonfiguration zum Rand Freiraum 0,5000 mm; tatsächlich 0,1750 mm)
+    Regel: Einschränkungen aus Platinenkonfiguration zum Rand; error
+    @(98,0000 mm, 77,5000 mm): NPTH-Pad von D3
+    @(98,0000 mm, 75,9500 mm): Pad 1 [GND] von D3 auf B.Cu
+[copper_edge_clearance]: Platinenkanten-Freiraum-Verstoß (Einschränkungen aus Platinenkonfiguration zum Rand Freiraum 0,5000 mm; tatsächlich 0,1750 mm)
+    Regel: Einschränkungen aus Platinenkonfiguration zum Rand; error
+    @(98,0000 mm, 77,5000 mm): NPTH-Pad von D3
+    @(98,0000 mm, 79,0500 mm): Pad 2 [Net-(D3-A)] von D3 auf B.Cu
 
 ** Found 0 unconnected pads **
 
