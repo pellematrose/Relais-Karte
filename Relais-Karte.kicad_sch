@@ -4906,7 +4906,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "KPTD-3216SECK"
+		(property "Value" "KPTD-3216ZGCK"
 			(at 215.9 86.6774 90)
 			(effects
 				(font
@@ -5165,7 +5165,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "KPTD-3216SECK"
+		(property "Value" "KPTD-3216ZGCK"
 			(at 215.9 60.0074 90)
 			(effects
 				(font
