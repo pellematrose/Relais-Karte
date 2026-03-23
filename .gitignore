@@ -10,3 +10,5 @@ archive_3d_models.log
 fp-lib-table
 sym-lib-table
 Symbols.kicad_sym
+/production
+fabrication-toolkit-options.json
