@@ -67,7 +67,7 @@ Das **weiße Feld** auf der Platine ist für Notizen vorgesehen, z. B.:
 
 ## 📏 Technische Daten
 
-- **PCB Maße:** 38,5 mm × 75,5 mm
+- **PCB Maße:** 38,5 mm × 77 mm
 
 ![alt text](https://github.com/pellematrose/Relais-Karte/blob/main/3D_render.png "3D Render")
 ---
