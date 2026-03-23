@@ -52,7 +52,8 @@ Die Last (z. B. eine **Pumpe**) wird an **J3** angeschlossen.
 💡 Es können auch **zwei Lasten gleichzeitig angeschlossen** werden:  
 - Eine an **NO**
 - Eine an **NC**  
-→ Es ist dabei **immer nur eine Last aktiv**
+→ Es ist dabei **immer nur eine Last aktiv**  
+→ Die Last muss **immer** mit **GND** verbunden werden!
 
 ---
 
