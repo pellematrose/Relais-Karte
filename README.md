@@ -1,6 +1,6 @@
 # Relais-Karte
 
-Relais-Karte für ein 24V-System auf ELIDA.
+Relais-Karte für 24V-Systeme, zum schalten von induktiven Lasten.
 
 ---
 
@@ -31,7 +31,8 @@ Die Platine verfügt über **zwei LEDs zur Zustandsanzeige**:
 ## ⚙️ Relaissteuerung
 
 An **J4** wird das **Schaltsignal** angeschlossen, mit dem das Relais aktiviert wird.  
-Hier kann z. B. ein **Schwimmerschalter** verwendet werden.
+Hier kann z. B. ein **Schwimmerschalter** als Schließer verwendet werden.  
+Wird ein anderes externes Schaltsignal verwendet, muss auf den GND Pfad geachtet werden!
 
 ---
 
@@ -68,6 +69,8 @@ Das **weiße Feld** auf der Platine ist für Notizen vorgesehen, z. B.:
 
 ## 📏 Technische Daten
 
+- Versorgungsspannung: 24V (+-20%)
+- Laststrom: 4A (Schiebeschalter, Leiterbahnen)
 - **PCB Maße:** 38,5 mm × 77 mm
 
 ![alt text](https://github.com/pellematrose/Relais-Karte/blob/main/3D_render.png "3D Render")
