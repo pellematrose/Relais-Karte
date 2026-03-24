@@ -8,7 +8,7 @@
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "b7785f4a-bbae-4b3f-aa40-b152169c0438")
+		(uuid "6d41efe2-cf1f-404c-97a4-07709b47552a")
 		(effects
 			(font
 				(size 1 1)
@@ -21,7 +21,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "7ed5bb84-ffb3-4330-90d8-cf68e4ffa7ee")
+		(uuid "a959b3f7-70d1-4cac-897a-3d9247650311")
 		(effects
 			(font
 				(size 1 1)
@@ -34,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "06ea4c3c-df29-4e3a-9a78-90eb2c785d6c")
+		(uuid "53fdf8a4-7ba1-44a9-9ea8-94283395e60f")
 		(effects
 			(font
 				(size 1 1)
@@ -47,46 +47,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "63b53f14-d89e-460f-926e-acde47a40d5c")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "LCSC" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "3e76cddc-6677-4829-8ff9-9aaa41c613e2")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Digikey" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "58f8ab62-cae7-428a-b94b-27ad4b82c5f9")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "Mouser" ""
-		(at 0 0 0)
-		(unlocked yes)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "5befeddb-4692-486e-adda-69ae03c38dad")
+		(uuid "4e1a1593-3588-409b-826b-fdd80ac8c4b4")
 		(effects
 			(font
 				(size 1 1)
@@ -99,7 +60,7 @@
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.SilkS")
-		(uuid "41d35954-8688-44ae-b7ee-91a7f9bcecb7")
+		(uuid "3cd2e065-75b0-4e5b-89ad-3b14c3a56ba8")
 		(effects
 			(font
 				(size 1 1)
@@ -112,7 +73,7 @@
 		(at 0.6 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5448190f-8e20-4409-a93d-b0460b2b4808")
+		(uuid "c50b1468-c101-4bed-9c46-a14571252b2e")
 		(effects
 			(font
 				(size 0.1 0.1)

@@ -1,5 +1,5 @@
 ** Drc report for Relais-Karte.kicad_pcb **
-** Created on 2026-03-24T17:13:25+0100 **
+** Created on 2026-03-24T17:18:53+0100 **
 ** Report includes: Fehler, Warnungen **
 
 ** Found 4 DRC violations **

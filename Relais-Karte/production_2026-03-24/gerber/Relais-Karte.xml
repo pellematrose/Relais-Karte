@@ -586,7 +586,7 @@
     <Enterprise id="UNKNOWN" code="NONE"/>
     <Person name="UNKNOWN" enterpriseRef="UNKNOWN" roleRef="Owner"/>
   </LogisticHeader>
-  <HistoryRecord number="1" origination="2026-03-24T17:13:26" software="KiCad EDA" lastChange="2026-03-24T17:13:26">
+  <HistoryRecord number="1" origination="2026-03-24T17:18:54" software="KiCad EDA" lastChange="2026-03-24T17:18:54">
     <FileRevision fileRevisionId="1" comment="NO COMMENT" label="NO LABEL">
       <SoftwarePackage name="KiCad" revision="9.0.8" vendor="KiCad EDA">
         <Certification certificationStatus="SELFTEST"/>
@@ -27296,7 +27296,7 @@
     </CadData>
   </Ecad>
   <Avl name="Primary_Vendor_List">
-    <AvlHeader title="BOM" source="KiCad" author="OWNER" datetime="2026-03-24T17:13:26" version="1"/>
+    <AvlHeader title="BOM" source="KiCad" author="OWNER" datetime="2026-03-24T17:18:54" version="1"/>
     <AvlItem OEMDesignNumber="_PS_LIB_MECH_L10101_Schiebeschalter_L101011MS02Q"/>
     <AvlItem OEMDesignNumber="_PS_LIB_PCB__PCB_~"/>
     <AvlItem OEMDesignNumber="_PS_LIB_CON_Fuse Holder Littelfuse ATOF 287_3557-2"/>
