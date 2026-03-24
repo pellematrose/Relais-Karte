@@ -1,18 +1,15 @@
-ERC-Bericht (2026-03-23T09:10:05+0100, UTF8-kodiert)
+ERC-Bericht (2026-03-24T17:13:24+0100, UTF8-kodiert)
 Protokoll enthält: Fehler, Warnungen
 
 ***** Schaltplan /
 [power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
     ; warning
-    @(69,85 mm, 39,37 mm): Symbol #PWR010 Pin 1 [Stromversorgung, Linie]
+    @(69,85 mm, 25,40 mm): Symbol #PWR010 Pin 1 [Stromversorgung, Linie]
 [power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
     ; warning
     @(162,56 mm, 52,07 mm): Symbol #PWR02 Pin 1 [Stromversorgung, Linie]
-[unconnected_wire_endpoint]: Unverbundenes Verbindungsende
-    ; warning
-    @(162,56 mm, 78,74 mm): Horizontale Verbindung, Länge 6,35 mm
 [power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
     ; warning
     @(212,09 mm, 60,96 mm): Symbol #PWR01 Pin 1 [Stromversorgung, Linie]
 
- ** ERC-Meldungen: 4  Fehler 0  Warnungen 4
+ ** ERC-Meldungen: 3  Fehler 0  Warnungen 3
