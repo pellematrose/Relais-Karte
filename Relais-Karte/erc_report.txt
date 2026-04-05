@@ -1,15 +1,21 @@
-ERC-Bericht (2026-03-24T17:18:52+0100, UTF8-kodiert)
-Protokoll enthält: Fehler, Warnungen
+ERC report (2026-04-01T14:29:57, Encoding UTF8)
+Report includes: Errors, Warnings
 
-***** Schaltplan /
-[power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
+***** Sheet /
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; warning
-    @(69,85 mm, 25,40 mm): Symbol #PWR010 Pin 1 [Stromversorgung, Linie]
-[power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
+    @(69.85 mm, 25.40 mm): Symbol #PWR010 Pin 1 [Stromversorgung, Linie]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; warning
-    @(162,56 mm, 52,07 mm): Symbol #PWR02 Pin 1 [Stromversorgung, Linie]
-[power_pin_not_driven]: Input-Power-Pin wird von keinem Output-Power-Pin angesteuert
+    @(162.56 mm, 52.07 mm): Symbol #PWR02 Pin 1 [Stromversorgung, Linie]
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
     ; warning
-    @(212,09 mm, 60,96 mm): Symbol #PWR01 Pin 1 [Stromversorgung, Linie]
+    @(212.09 mm, 60.96 mm): Symbol #PWR01 Pin 1 [Stromversorgung, Linie]
 
- ** ERC-Meldungen: 3  Fehler 0  Warnungen 3
+ ** ERC messages: 3  Errors 0  Warnings 3
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

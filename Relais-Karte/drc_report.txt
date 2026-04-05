@@ -1,27 +1,36 @@
 ** Drc report for Relais-Karte.kicad_pcb **
-** Created on 2026-03-24T17:18:53+0100 **
-** Report includes: Fehler, Warnungen **
+** Created on 2026-04-01T14:30:01 **
+** Report includes: Errors, Warnings **
 
 ** Found 4 DRC violations **
 [copper_edge_clearance]: Platinenkanten-Freiraum-Verstoß (Einschränkungen aus Platinenkonfiguration zum Rand Freiraum 0,5000 mm; tatsächlich 0,1750 mm)
-    Regel: Einschränkungen aus Platinenkonfiguration zum Rand; error
-    @(97,9750 mm, 54,2375 mm): NPTH-Pad von D2
-    @(97,9750 mm, 52,6875 mm): Pad 1 [GND] von D2 auf B.Cu
+    Rule: Einschränkungen aus Platinenkonfiguration zum Rand; error
+    @(97.9750 mm, 54.2375 mm): NPTH-Pad von D2
+    @(97.9750 mm, 52.6875 mm): Pad 1 [GND] von D2 auf B.Cu
 [copper_edge_clearance]: Platinenkanten-Freiraum-Verstoß (Einschränkungen aus Platinenkonfiguration zum Rand Freiraum 0,5000 mm; tatsächlich 0,1750 mm)
-    Regel: Einschränkungen aus Platinenkonfiguration zum Rand; error
-    @(97,9750 mm, 54,2375 mm): NPTH-Pad von D2
-    @(97,9750 mm, 55,7875 mm): Pad 2 [Net-(D2-A)] von D2 auf B.Cu
+    Rule: Einschränkungen aus Platinenkonfiguration zum Rand; error
+    @(97.9750 mm, 54.2375 mm): NPTH-Pad von D2
+    @(97.9750 mm, 55.7875 mm): Pad 2 [Net-(D2-A)] von D2 auf B.Cu
 [copper_edge_clearance]: Platinenkanten-Freiraum-Verstoß (Einschränkungen aus Platinenkonfiguration zum Rand Freiraum 0,5000 mm; tatsächlich 0,1750 mm)
-    Regel: Einschränkungen aus Platinenkonfiguration zum Rand; error
-    @(98,0000 mm, 77,5000 mm): NPTH-Pad von D3
-    @(98,0000 mm, 75,9500 mm): Pad 1 [GND] von D3 auf B.Cu
+    Rule: Einschränkungen aus Platinenkonfiguration zum Rand; error
+    @(98.0000 mm, 77.5000 mm): NPTH-Pad von D3
+    @(98.0000 mm, 75.9500 mm): Pad 1 [GND] von D3 auf B.Cu
 [copper_edge_clearance]: Platinenkanten-Freiraum-Verstoß (Einschränkungen aus Platinenkonfiguration zum Rand Freiraum 0,5000 mm; tatsächlich 0,1750 mm)
-    Regel: Einschränkungen aus Platinenkonfiguration zum Rand; error
-    @(98,0000 mm, 77,5000 mm): NPTH-Pad von D3
-    @(98,0000 mm, 79,0500 mm): Pad 2 [Net-(D3-A)] von D3 auf B.Cu
+    Rule: Einschränkungen aus Platinenkonfiguration zum Rand; error
+    @(98.0000 mm, 77.5000 mm): NPTH-Pad von D3
+    @(98.0000 mm, 79.0500 mm): Pad 2 [Net-(D3-A)] von D3 auf B.Cu
 
 ** Found 0 unconnected pads **
 
 ** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - PTH inside courtyard
+    - NPTH inside courtyard
+    - Footprint component type doesn't match footprint pads
 
 ** End of Report **
