@@ -23,7 +23,7 @@ Die Platine verfügt über **zwei LEDs zur Zustandsanzeige**:
   - Leuchtet, wenn **Spannung anliegt** und die **Sicherung in Ordnung** ist
 
 - **LED 2 – Relais aktiv / Last versorgt**  
-  - Leuchtet, wenn das **Relais geschaltet hat**  
+  - Leuchtet, wenn das **Relais geschaltet hat** oder der **manuelle Schalter** eingeschaltet ist  
   - → Die angeschlossene **Last erhält Spannung**
 
 ---
@@ -55,6 +55,9 @@ Die Last (z. B. eine **Pumpe**) wird an **J3** angeschlossen.
 - Eine an **NC**  
 → Es ist dabei **immer nur eine Last aktiv**  
 → Die Last muss **immer** mit **GND** verbunden werden!
+
+### Anschlussplan
+![Anschlussplan](https://github.com/pellematrose/Relais-Karte/blob/main/Anschlussplan.png "Anschlussplan")  
 
 ---
 
